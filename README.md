@@ -2,7 +2,7 @@
 <h1 align="center">뱅온 (BangOn)</h1>
 <p align="center">좋아하는 스트리머의 방송을 한눈에.<br>치지직 · SOOP · 유튜브 · 트위치 채널을 화면 위 작은 덱에 모아두는 무료 앱 (macOS · Windows)</p>
 
-<p align="center"><a href="https://bangon.vercel.app">홈페이지</a> · <a href="../../releases/latest">다운로드</a></p>
+<p align="center"><a href="https://bangon-app.vercel.app">홈페이지</a> · <a href="../../releases/latest">다운로드</a></p>
 
 ## 다운로드
 
