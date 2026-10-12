@@ -12,7 +12,18 @@
 | Windows 10 / 11 설치형 | [BangOn-Setup.exe](../../releases/latest/download/BangOn-Setup.exe) |
 | Windows 포터블 (설치 없이) | [BangOn-Portable.exe](../../releases/latest/download/BangOn-Portable.exe) |
 
-처음 열 때 보안 경고가 나오면 — macOS: 앱을 **우클릭 → 열기** / Windows: **추가 정보 → 실행**
+### 처음 열 때 보안 경고가 나오면
+
+**macOS** — 애플 개발자 인증을 받지 않은 개인 앱이라 처음 한 번 *"'BangOn'을(를) 열지 않음"* 창이 떠요.
+1. 창에서 **완료**를 누르고 **시스템 설정 → 개인정보 보호 및 보안** 맨 아래의 **그래도 열기**를 눌러요 (암호 또는 Touch ID 입력)
+2. 뱅온을 다시 실행해서 **열기**를 누르면 끝
+
+또는 터미널에서 한 줄로:
+```bash
+xattr -dr com.apple.quarantine /Applications/BangOn.app
+```
+
+**Windows** — "Windows의 PC 보호" 창이 뜨면 **추가 정보 → 실행**
 
 ## 기능
 - 방송 중이면 컬러, 꺼져 있으면 흑백 · 클릭하면 바로 방송으로
